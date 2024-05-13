@@ -1,0 +1,105 @@
+#signupcontainer{
+  width: "100%";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightblue;
+  font-family: Caslon Antique;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  
+}
+#jobandcoursecontainer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#jobcontainer
+{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  font-family: Caslon Antique;
+  height: 240px;
+  
+  background-color: aliceblue;
+}
+#coursecontainer
+{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  margin-top: 10px;
+  font-family: Caslon Antique;
+
+  
+  background-color: aliceblue;
+}
+#footer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: lightblue;
+}
+@media (min-width: 0px) and (max-width: 600px) {
+  #jobandcoursecontainer {
+    flex-direction: column;
+  }
+
+}
+@media(min-width:0px) and (max-width:600px)
+
+{
+  #footer
+  {
+    flex-direction: column;
+  }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 499px) {
+  #jobcontainer{
+    width: 100%;
+  }
+  #coursecontainer{
+    width: 100%;
+  }
+  #signupcontainer {
+    width:100%;
+    background-color:lightblue;
+    color: black;
+  }
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
